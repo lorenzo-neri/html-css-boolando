@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
 .container
 {
   max-width: 1170px;
@@ -54,13 +56,13 @@ header{
 }
 header>.container{
     justify-content: space-between;
-    font-size: ;
-    padding-top: 1rem;
-    padding-bottom: 2.5rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
 }
 .categories{
     justify-content: space-between;  
     gap: 0.5rem;  
+    font-size: small;
 }
 .logo>img{
     width: 7rem;
@@ -77,10 +79,54 @@ header>.container{
 
 .col{
     width: calc(100%/3 - 1rem);
-    height: 30rem;
+    position: relative;
 }
 .col>img{
     width: 100%;
+}
+.square{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--bl-white);
+    position: absolute;
+    right: 0;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.square>div{
+    font-size: 1.5rem;
+}
+.labels{
+    color: var(--bl-white);
+    font-size: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 6rem;
+}
+.sales{
+    background-color: var(--bl-sales);
+    padding: 0.2rem 0.4rem;
+}
+.bearableness{
+    background-color: var(--bl-bearableness);
+    padding: 0.2rem 0.4rem;
+}
+.brand{
+    font-weight: 100;
+    font-size: small;
+}
+.clothes{
+    font-weight: 900;
+}
+.price{
+    font-size: small;
+}
+.f-price{
+    color:var(--bl-sales)
+}
+.s-price{
+    text-decoration: line-through;
 }
 /* #endregion main */
 

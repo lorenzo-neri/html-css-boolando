@@ -35,6 +35,10 @@
 .debug .container{
     height: 50px;
 }
+
+.debug .col{
+    background-color: red;
+}
 /* #endregion debug */
 
 /* #region header */
@@ -54,6 +58,18 @@ header>.container{
 
 /* #region main */
 
+.container>.row{
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.col{
+    width: calc(100%/3 - 1rem);
+    height: 30rem;
+}
+.col>img{
+    width: 100%;
+}
 /* #endregion main */
 
 /* #region footer */

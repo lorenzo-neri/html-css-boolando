@@ -53,6 +53,9 @@ a{
 header{
     background-color: var(--bl-primary);
     color: var(--bl-white);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 header>.container{
     justify-content: space-between;
@@ -71,7 +74,9 @@ header>.container{
 /* #endregion header */
 
 /* #region main */
-
+main{
+    padding-top: 3rem;
+}
 .container>.row{
     justify-content: space-between;
     padding: 3rem 0;
@@ -83,6 +88,15 @@ header>.container{
 }
 .col>img{
     width: 100%;
+}
+.col:hover .img_one{
+    display: none;
+}
+.img_one_b{
+    display: none;
+}
+.col:hover .img_one_b{
+    display: inline;
 }
 .square{
     width: 3rem;

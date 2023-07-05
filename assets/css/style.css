@@ -143,9 +143,35 @@ main{
     text-decoration: line-through;
 }
 /* #endregion main */
-
 /* #region footer */
 
 
+footer{
+    background-color: var(--bl-dark);
+    color: var(--bl-white);
+    padding: 1rem 0;
+}
+footer>.container{
+    justify-content: space-between;
+}
+.legal{
+    width: calc(70%/2);
+}
+.society{
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+.legal_info{
+    font-size: small;
+    justify-content: space-between;
+}
+.social>div{
+    font-size: small;
+    padding-bottom: 1rem;
+}
+.icon{
+    justify-content: space-between;
+    gap: 1rem;
+}
 
 /* #endregion footer */

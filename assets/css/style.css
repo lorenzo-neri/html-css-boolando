@@ -108,6 +108,9 @@ main{
     justify-content: center;
     align-items: center;
 }
+.square:hover{
+    color: red;
+}
 .square>div{
     font-size: 1.5rem;
 }

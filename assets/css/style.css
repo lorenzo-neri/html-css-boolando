@@ -92,10 +92,10 @@ main{
 .col:hover .img_one{
     display: none;
 }
-.img_one_b{
+.img_two{
     display: none;
 }
-.col:hover .img_one_b{
+.col:hover .img_two{
     display: inline;
 }
 .square{
@@ -145,5 +145,7 @@ main{
 /* #endregion main */
 
 /* #region footer */
+
+
 
 /* #endregion footer */
